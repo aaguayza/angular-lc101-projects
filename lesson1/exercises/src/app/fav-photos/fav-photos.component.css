@@ -2,10 +2,16 @@ h3 {
    color: brown;
 }
 
-img {
-
+.images {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
-
+img{
+   height: 50%;
+   width: 50%;
+}
 .photos {
    text-align: center;
 }
